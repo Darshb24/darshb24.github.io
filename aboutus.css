@@ -115,6 +115,7 @@ body {
     width: 100%;
     color: rgb(255, 255, 255);
     background-image: url('Images/museum.png');
+    background-size: cover;
     opacity: 0.5;
 }
 #abt {
