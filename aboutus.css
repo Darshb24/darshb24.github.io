@@ -1,0 +1,300 @@
+body {
+    margin: 0%;
+    overflow-x: hidden;
+}
+.menu {
+    width: 100%;
+    height: 12.4%;
+    background-image: url('Images/7310db61-c1ca-44ee-8cad-df88633b5885.jpg');
+    color: rgb(77, 56, 3);
+    font-family: Kings, serif;
+    font-size: large;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    top: 0px;
+}
+.menu h2 {
+    margin-left: 2%;
+    position: relative;
+    top: 3%;
+}
+.menu img {
+    margin-left: 1% ;
+    margin-top: 0.5%;
+    width: 5%;
+    height: 80%;
+    
+}
+.menu button {
+    background-color: rgba(0,0,0, 0);
+    color: rgb(77, 56, 3);
+    position: relative;
+    bottom: 2%;
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    border: 0px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover {
+    color: rgb(181, 109, 36);
+}
+.menu img {
+    border-radius: 100% ;
+}
+.footnote {
+    background-color: black;
+    position: absolute;
+    top: 252.4%;
+    left: 0px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.text h1 {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    border-style: solid;
+    border-color: white;
+    border-left: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
+    color: white;
+    font-size: 56px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+.footnote img {
+    width: 20%;
+    height: 70%;
+    position: relative;
+    top: 14%;
+    left: 25%;
+    border-radius: 100%;
+}
+.footy {
+    background-color: black;
+    position: relative;
+    top: 0%;
+    left: 10%;
+    width: 20%;
+    height: 100%;
+}
+.footy button {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 0px;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 10%;
+    color: white;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 25%;
+    left:-10%;
+}
+.footy button:hover {
+    color: rgb(181, 109, 36);
+}
+.about {
+    text-align: center;
+    position: absolute;
+    top:12.4%;
+    height: 40%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url('Images/museum.png');
+    opacity: 0.5;
+}
+#abt {
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    font-size: 128px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0%;
+}
+.team {
+    position: absolute;
+    top: 52.4%;
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.team h2 {
+    position: relative;
+    top: 14%;
+    font-size: 56px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.member1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 19%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+.member1 img {
+    width: 100%;
+    height: 75%;
+}
+.h3 h3 {
+    position: relative;
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    top: 10%;
+    left: 5%;
+    width: 80%;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h3 p {
+    position: relative;
+    text-align: left;
+    margin-top: 0%;
+    top: 0%;
+    left: 5%;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.member2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 19%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+.member3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    width: 19%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+.abtthemuseum {
+    position: absolute;
+    top: 152.4%;
+    background-color: rgb(183, 182, 182);
+    width: 100%;
+    height: 100%;;
+    text-align: left;
+}
+.abtimg img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+    clip-path: ellipse(100% 100% at left);
+    opacity: 0.7;
+}
+.abtxt {
+    position: absolute;
+    top: 20%;
+}
+.abtthemuseum h1 {
+    margin: 0px;
+    margin-left: 3vw;
+    position: relative;
+    top: 100%;
+    color: white;
+    font-size: 125px;
+}
+.abtthemuseumtxt {
+    background-color: rgb(183, 182, 182);
+    position: relative;
+    top: 12%;
+    left: 40%;
+    width: 40%;
+    height: 60%;
+    text-align: left;
+    display: flex;
+
+}
+.abtthemuseumtxt1 {
+    background-color: rgb(111, 111, 111);
+    color: aliceblue;
+    border-radius: 10%;
+    position: relative;
+    top: 5%;
+    left: 0%;
+    width: 50%;
+    height: 90%;
+    text-align: left;
+    box-shadow: 10px 10px 5px rgb(83, 83, 83);
+}
+.abtthemuseumtxt1 h3 {
+    position: relative;
+    text-align: left;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.abtthemuseumtxt1 p {
+    position: relative;
+    text-align: left;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.abtthemuseumtxt2 {
+    background-color: rgb(111, 111, 111);
+    color: aliceblue;
+    border-radius: 10%;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    width: 50%;
+    height: 90%;
+    text-align: left;
+    box-shadow: 10px 10px 5px rgb(83, 83, 83)
+}
+.abtthemuseumtxt2 h3 {
+    position: relative;
+    text-align: left;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.abtthemuseumtxt2 p {
+    position: relative;
+    text-align: left;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+} 

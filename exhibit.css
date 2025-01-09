@@ -1,0 +1,102 @@
+body {
+    margin: 0%;
+    overflow-x: hidden;
+}
+.menu {
+    width: 100vw;
+    height: 90px;
+    background-image: url('Images/7310db61-c1ca-44ee-8cad-df88633b5885.jpg');
+    color: rgb(77, 56, 3);
+    font-family: Kings, serif;
+    font-size: large;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    top: 0px;
+}
+.menu h2 {
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+.menu img {
+    margin-left: 30px ;
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.menu button {
+    background-color: rgba(0,0,0, 0);
+    color: rgb(77, 56, 3);
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    border: 0px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover {
+    color: rgb(181, 109, 36);
+}
+.menu img {
+    border-radius: 100% ;
+}
+.footnote {
+    background-color: black;
+    position: absolute;
+    top:170vh;
+    left: 0vw;
+    width: 100vw;
+    height: 60vh;
+}
+.footnote{
+    display: flex;
+}
+.text h1 {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    border-style: solid;
+    border-color: white;
+    border-left: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
+    color: white;
+    font-size: 56px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 12vh;
+    left: 10vw;
+}
+.footnote img {
+    width: 20vw;
+    height: 42vh;
+    position: relative;
+    top: 8vh;
+    left: 25vw;
+    border-radius: 100%;
+}
+.footy button {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 0px;
+    margin: 0px;
+    width: 16vw;
+    height: 10vh;
+    color: white;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 12vh;
+    left: 11vw;
+}
+.footy button:hover {
+    color: rgb(181, 109, 36);
+}
