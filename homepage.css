@@ -298,6 +298,8 @@ body {
 .search {
     display: flex;
     grid-column: span 2;
+    align-content: center;
+    justify-content: center;
 }
 .search input {
     width: 50%;
