@@ -296,8 +296,10 @@ body {
     color: rgb(181, 109, 36);
 }
 .search {
-    display: flex;
+    display: grid;
+    grid-template-columns: 95% 5%;
     grid-column: span 2;
+    height: 100%;
 }
 .search input {
     width: 50%;
