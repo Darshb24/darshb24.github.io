@@ -299,7 +299,7 @@ body {
     display: flex;
     grid-column: span 2;
 }
-.search input {
+.search input[type = text] {
     width: 50%;
     height: 30%;
     font-size: 24px;
@@ -316,5 +316,9 @@ body {
     outline: none;
     width: 100%;
     border-color: rgb(0, 0, 0);
-    transition:  1s;
-}  
+    transition: 1s;
+}
+.search input:not(:focus) {
+    width: 50%;
+    transition: 1s;
+}
