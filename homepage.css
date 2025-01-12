@@ -296,14 +296,15 @@ body {
     color: rgb(181, 109, 36);
 }
 .search {
-    display: flex;
+    display: grid;
+    grid-template-columns: 95% 5%;
     grid-column: span 2;
-    align-content: center;
-    justify-content: center;
+    height: 100%;
+    align-self: center;
 }
 .search input {
     width: 50%;
-    height: 30%;
+    height: 45%;
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
@@ -313,12 +314,17 @@ body {
     border-left: none;
     border-right: none;
     border: 7%;
+    box-sizing: border-box;
+}
+.search input::placeholder {
+    font-size: clamp(0.1vw, 6vw, 1.5vw);
+    color: rgb(0, 0, 0);
 }
 .search input:focus {
     outline: none;
     width: 100%;
     border-color: rgb(0, 0, 0);
-    transition: 1s;
+    transition: 0.7s;
 }
 .search input:not(:focus) {
     width: 50%;
