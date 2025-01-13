@@ -1,64 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kings&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/01fd6a9245.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="debug.css">
-    <title>Museum of Everything</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kings&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/01fd6a9245.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="debug.css">
+        <title>Contact Us</title>
+    </head>
 <body>
-    <div class="about">
-
-    </div>
-    <div class="aboutus">
-        <h1 id = 'abt' >About Us</h1> 
-    </div>
-    <div class = 'team'>
-        <h2>Meet The Team</h2>
-        <div class = members>
-            <div class = 'member1'>
-                <img src = 'Images/stockperson.jpg'>
-                <div class = 'h3'>
-                    <h3>John Doe</h3>
-                    <p>Curator</p>
-                </div>
-            </div>
-            <div class = 'member2'>
-                <img src = 'Images/stockperson.jpg'>
-                <div class = 'h3'>
-                    <h3>John Doe</h3>
-                    <p>Developer</p>
-                </div>
-            </div>
-            <div class = 'member3'>
-                <img src = 'Images/stockperson.jpg'>
-                <div class = 'h3'>
-                    <h3>John Doe</h3>
-                    <p>Assistant</p>
-                </div>
-            </div>
+    <div class = container>
+        <div class="contactus">
+            <h1>Contact Us</h1>
+            <p>Phone: +65 9183 XXXX</p>
+            <p>Email: museumofeverything@gmail.com</p>
+            <p>Feel free to contact me with any questions or concerns you may have. I am here to help!</p>     
         </div>
-    </div>
-    <div class = 'abtthemuseum'>
-        <div class='abttxt'>
-            <h1>Why</h1>
-            <h1>We</h1>
-            <h1>Exist</h1>
+        <div class="form">
+            <form action="action_page.php">
+                <label class = "fname" for="fname">First Name</label>
+                <input class = "fname" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-        <div class = 'abtimg'>
-            <img src = 'Images/museum.png'>
-        </div>
-        <div class="abtthemuseumtxt1">
-            <h3>Who We Are</h3>
-            <p>We are ambitious students who desire attempt to do make a museum.</p>
-        </div>
-        <div class="abtthemuseumtxt2">
-            <h3>What We Do</h3>
-            <p>We collect and curate everything the human civilisation has recorded and learnt to create a site for unlimited and unrestrained learning. Kind of like Earth's Akashic Records.</p>
+        <div class = "float">
+            
         </div>
     </div>
     <div class="footnote">
@@ -88,5 +62,6 @@
             <input type="text" placeholder="Search..">
             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
-    </div>
+    </div>   
 </body>
+</html>
